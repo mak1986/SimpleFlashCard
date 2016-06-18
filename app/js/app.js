@@ -1,4 +1,4 @@
 (function(){
 	'use strict';
-	angular.module('SimpleFlashCardApp', ['_Controllers']);
+	angular.module('app', ['FlashCard']);
 })();
