@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">	
 </head>
 <body>
-	<div class="container" ng-app="SimpleFlashCardApp">
+	<div class="container" ng-app="app">
 		<div class="row">
 			<div class="col-md-12" ng-controller="FlashCardController as FlashCardController">
 				
@@ -40,7 +40,10 @@
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="app/js/app.js"></script>
-	<script type="text/javascript" src="app/js/controller/_Controllers.js"></script>
-	<script type="text/javascript" src="app/js/controller/FlashCardController.js"></script>
+	<script type="text/javascript" src="app/js/modules/flashCard/FlashCardModule.js"></script>
+	<script type="text/javascript" src="app/js/modules/flashCard/FlashCardService.js"></script>
+	<script type="text/javascript" src="app/js/modules/flashCard/FlashCardController.js"></script>
+
+
 </body>
 </html>
